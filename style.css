@@ -338,7 +338,8 @@ h3{
 
 /* ----- ABOUT / SKILLS BOX ----- */
 .skills-box{
-    margin: 10px;
+    margin: 20px;
+    
 }
 .skills-header{
     margin-bottom: 30px;
@@ -615,8 +616,18 @@ footer{
     .project-box{
         width: 80%;
     }
-
 }
+
+.small-img {
+    width: 20px;  /* Adjust the size to your preference */
+    height: 20px;
+}
+
+.icon-color {
+    color: #000000; /* Change this color to your preference */
+}
+
+
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 
