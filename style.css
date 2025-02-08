@@ -3,7 +3,7 @@
 
 /* ----- VARIABLES ----- */
 :root{
-    --body-color: rgb(255, 255, 255);
+    --body-color: rgb(173, 235, 229);
     --color-white: rgb(255, 255, 255);
 
     --text-color-second: rgb(68, 68, 68);
@@ -241,9 +241,11 @@ nav{
     animation: imgFloat 7s ease-in-out infinite;
 }
 .image img{
-    width: 380px;
-    height: 380px;
-    object-fit: contain;
+    width: 400px;
+    height: 450px;
+    border-radius: 70%;    /* Makes the image circular */
+    border: 5px solid #000000; /* Outline color and thickness */
+    object-fit: cover;     /* Ensures the image fills the circle properly */
 }
 @keyframes imgFloat {
     50%{
@@ -500,7 +502,7 @@ footer{
     align-items: center;
     flex-direction: column;
     row-gap: 30px;
-    background: #F8F8F8;
+    background: #6fb5e1;
     padding-block: 40px 60px;
 }
 .top-footer p{
